@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinyl Record Cleaning Kit with Vacuum Brush | Mikah Vinyl Cleaner</title>
-    <meta name="description" content="A vacuum record cleaning brush that pulls dirty fluid off your LPs. 1.5&quot; hose connection. Made in USA, 500+ sold. Buy on eBay or Etsy.">
+    <title>Vinyl Record Cleaner &amp; Vacuum Cleaning Kit | Mikah Vinyl Clean</title>
+    <meta name="description" content="Clean 12-inch LPs with a vinyl record cleaner and vacuum brush attachment for a 1.5-inch wet/dry vacuum hose. Made in USA. Shop kits on eBay or Etsy.">
     
+
+    <!-- Keep these URLs aligned with the final public domain. -->
+    <link rel="canonical" href="https://mikahvinylcleaner.com/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta property="og:site_name" content="Mikah Vinyl Cleaner">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:alt" content="Mikah Vinyl Cleaner vacuum record cleaning brush and LP cleaning kit">
+    <meta name="twitter:image:alt" content="Mikah Vinyl Cleaner vacuum record cleaning brush and LP cleaning kit">
+
     <!-- OpenGraph Tags for Social & Search Previews -->
-    <meta property="og:title" content="Vinyl Record Cleaning Kit with Vacuum Brush | Mikah Vinyl Cleaner">
-    <meta property="og:description" content="A vacuum record cleaning brush that pulls dirty fluid off your LPs. Made in USA, 500+ sold.">
-    <meta property="og:image" content="images/og.jpg">
+    <meta property="og:title" content="Vinyl Record Cleaner &amp; Vacuum Cleaning Kit | Mikah">
+    <meta property="og:description" content="Clean 12-inch LPs with a vinyl record cleaner and vacuum brush attachment for a 1.5-inch wet/dry vacuum hose. Made in USA. Shop kits on eBay or Etsy.">
+    <meta property="og:image" content="https://mikahvinylcleaner.com/images/og.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mikahvinylcleaner.com">
+    <meta property="og:url" content="https://mikahvinylcleaner.com/">
 
     <!-- Twitter Card Data -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Vinyl Record Cleaning Kit with Vacuum Brush | Mikah Vinyl Cleaner">
-    <meta name="twitter:description" content="Extract dirty cleaning fluid straight out of vinyl grooves. USA Made. Fits 1.5&quot; vacuum hose.">
-    <meta name="twitter:image" content="images/og.jpg">
+    <meta name="twitter:title" content="Vinyl Record Cleaner &amp; Vacuum Cleaning Kit | Mikah">
+    <meta name="twitter:description" content="Clean 12-inch LPs with a vinyl record cleaner and vacuum brush attachment for a 1.5-inch wet/dry vacuum hose. Made in USA. Shop kits on eBay or Etsy.">
+    <meta name="twitter:image" content="https://mikahvinylcleaner.com/images/og.jpg">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -51,6 +60,8 @@
 
     <!-- Custom CSS -->
     <style>
+        .skip-link { position: absolute; left: -10000px; top: 0; z-index: 100; background: #fff; color: #111; padding: 12px; }
+        .skip-link:focus { left: 12px; top: 12px; }
         body {
             font-family: 'Inter', sans-serif;
             background-color: #0f1115;
@@ -80,31 +91,153 @@
         }
     </style>
 
-    <!-- Schema.org JSON-LD Structured Data for Google -->
+    <!-- JSON-LD describes visible content. No unverified prices, stock claims or ratings. -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org/",
+      "@type": "Organization",
+      "@id": "https://mikahvinylcleaner.com/#organization",
+      "name": "Mikah Vinyl Cleaner",
+      "url": "https://mikahvinylcleaner.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mikahvinylcleaner.com/#website",
+      "url": "https://mikahvinylcleaner.com/",
+      "name": "Mikah Vinyl Cleaner",
+      "publisher": {
+        "@id": "https://mikahvinylcleaner.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mikahvinylcleaner.com/#webpage",
+      "url": "https://mikahvinylcleaner.com/",
+      "name": "Vinyl Record Cleaner & Vacuum Cleaning Kit | Mikah",
+      "description": "Clean 12-inch LPs with a vinyl record cleaner and vacuum brush attachment for a 1.5-inch wet/dry vacuum hose. Made in USA. Shop kits on eBay or Etsy.",
+      "isPartOf": {
+        "@id": "https://mikahvinylcleaner.com/#website"
+      },
+      "about": {
+        "@id": "https://mikahvinylcleaner.com/#product"
+      },
+      "mainEntity": {
+        "@id": "https://mikahvinylcleaner.com/#product"
+      },
+      "inLanguage": "en-US"
+    },
+    {
       "@type": "Product",
-      "name": "Mikah Vinyl Cleaner Vacuum Record Cleaning Kit",
+      "@id": "https://mikahvinylcleaner.com/#product",
+      "url": "https://mikahvinylcleaner.com/",
+      "name": "Mikah Vinyl Cleaner Vacuum Record Cleaning Brush",
+      "description": "A vinyl record cleaner and vacuum brush attachment with replaceable velvet pads for 12-inch LPs and a compatible 1.5-inch wet/dry vacuum hose.",
       "image": [
-        "images/hero.webp",
-        "images/kit.webp",
-        "images/product.webp"
+        "https://mikahvinylcleaner.com/images/hero.webp",
+        "https://mikahvinylcleaner.com/images/kit.webp",
+        "https://mikahvinylcleaner.com/images/product.webp"
       ],
-      "description": "A vacuum record cleaning brush attachment that pulls dirty fluid off your LPs using a 1.5 inch vacuum hose connection.",
       "brand": {
         "@type": "Brand",
         "name": "Mikah"
       },
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      }
+      "category": "Vinyl record cleaning accessories",
+      "mainEntityOfPage": {
+        "@id": "https://mikahvinylcleaner.com/#webpage"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Record size",
+          "value": "12-inch LPs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Vacuum hose connection",
+          "value": "1.5 inches"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cleaning pad",
+          "value": "Replaceable self-adhesive velvet"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mikahvinylcleaner.com/#faq",
+      "isPartOf": {
+        "@id": "https://mikahvinylcleaner.com/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will it fit my vacuum hose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It has a 1.5-inch hose connection for a compatible wet/dry vacuum. Check the hose fit before use and follow your vacuum manufacturer’s instructions for collecting liquid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it work on 7 inch records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Right now it’s made for 12 inch records. A 7 inch version is on the way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use my own cleaning fluid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can use a record-safe vinyl cleaning solution suitable for vacuum cleaning. Follow the fluid manufacturer’s directions, including any rinsing requirements. The kits include our record cleaning fluid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I replace the pad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Peel off the worn pad and press a fresh self-adhesive one into place. Replacement pads are sold separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this the same as a record cleaning machine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A dedicated machine is more automatic. This is a smaller, cheaper way to get the same vacuum step, using equipment you already own."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a record cleaner vacuum attachment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A record cleaner vacuum attachment connects a record-cleaning brush to an external wet/dry vacuum. Mikah uses a compatible 1.5-inch hose to remove used cleaning fluid and loosened dirt from 12-inch LPs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can this LP record cleaner repair scratches?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cleaning can remove loose dirt and residue, but it does not repair scratches or worn grooves. Some surface noise may remain after cleaning."
+          }
+        }
+      ],
+      "inLanguage": "en-US"
     }
+  ]
+}
     </script>
 </head>
 <body class="min-h-screen flex flex-col">
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
     <!-- Sticky Navigation Header -->
     <header class="sticky top-0 z-50 bg-[#0f1115]/90 backdrop-blur border-b border-brand-border">
@@ -114,17 +247,17 @@
                 MIKAH <span class="text-xs px-2 py-0.5 rounded bg-brand-border text-brand-muted font-normal">VINYL CLEANER</span>
             </a>
             <div class="flex items-center gap-3">
-                <a href="#ebay" class="btn-ebay text-white font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg transition-all shadow-md hover:scale-[1.02]">
+                <a href="https://www.ebay.com/itm/167882713172" class="btn-ebay text-white font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg transition-all shadow-md hover:scale-[1.02]">
                     Buy on eBay
                 </a>
-                <a href="#etsy" class="btn-etsy text-white font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg transition-all shadow-md hover:scale-[1.02]">
+                <a href="https://www.etsy.com/listing/1643806506/vinyl-record-cleaning-kit-vacuum-brush" class="btn-etsy text-white font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg transition-all shadow-md hover:scale-[1.02]">
                     Buy on Etsy
                 </a>
             </div>
         </div>
     </header>
 
-    <main class="flex-grow gradient-glow">
+    <main id="main-content" class="flex-grow gradient-glow">
         <!-- Hero Section -->
         <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 md:pt-20 md:pb-24">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -138,14 +271,14 @@
                         Vinyl Record Cleaning Kit With a Vacuum Brush
                     </h1>
                     <p class="text-lg sm:text-xl text-brand-muted leading-relaxed">
-                        Wet clean your records, then pull the dirty fluid off the vinyl instead of wiping it around. It works with the turntable and vacuum you already own.
+                        Wet clean your records, then remove the used fluid and loosened dirt with a vinyl record cleaner that connects to your existing wet/dry vacuum. Designed for 12-inch LPs and a 1.5-inch vacuum hose.
                     </p>
                     
                     <div class="pt-4 flex flex-col sm:flex-row gap-4">
-                        <a href="#ebay" class="btn-ebay text-white text-center font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-blue-500/10 text-base transition-all transform hover:-translate-y-0.5">
+                        <a href="https://www.ebay.com/itm/167882713172" class="btn-ebay text-white text-center font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-blue-500/10 text-base transition-all transform hover:-translate-y-0.5">
                             Buy on eBay
                         </a>
-                        <a href="#etsy" class="btn-etsy text-white text-center font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/10 text-base transition-all transform hover:-translate-y-0.5">
+                        <a href="https://www.etsy.com/listing/1643806506/vinyl-record-cleaning-kit-vacuum-brush" class="btn-etsy text-white text-center font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/10 text-base transition-all transform hover:-translate-y-0.5">
                             Buy on Etsy
                         </a>
                     </div>
@@ -158,7 +291,7 @@
                             src="images/hero.webp" 
                             alt="Mikah Vinyl Cleaner vacuum record cleaning brush on a 12 inch vinyl record" 
                             class="w-full h-auto object-cover rounded-2xl"
-                            loading="eager"
+                            loading="eager" fetchpriority="high" decoding="async"
                             onerror="this.onerror=null; this.src='https://placehold.co/600x600/181b20/94a3b8?text=images/hero.webp';"
                         >
                     </div>
@@ -191,15 +324,15 @@
                             src="images/product.webp" 
                             alt="Replaceable velvet pads for the Mikah vacuum record brush" 
                             class="w-full h-auto object-cover rounded-2xl"
-                            loading="lazy"
+                            loading="lazy" decoding="async"
                             onerror="this.onerror=null; this.src='https://placehold.co/600x500/181b20/94a3b8?text=images/product.webp';"
                         >
                     </div>
                     <!-- Content -->
                     <div class="space-y-6 order-1 md:order-2">
-                        <h2 class="text-3xl sm:text-4xl font-bold text-white">What Mikah does</h2>
+                        <h2 class="text-3xl sm:text-4xl font-bold text-white">A Vacuum Record Cleaner for 12-Inch LPs</h2>
                         <p class="text-brand-muted text-lg leading-relaxed">
-                            Mikah Vinyl Cleaner is a vacuum record cleaning brush. It has a blue body, a soft velvet pad underneath that seals around the grooves to channel suction without scratching the vinyl, and a 1.5 inch connection on the end for your vacuum hose.
+                            Mikah Vinyl Cleaner is an LP record cleaner with a vacuum record cleaning brush and replaceable velvet pads. This vinyl cleaning brush connects to a 1.5-inch wet/dry vacuum hose to remove used cleaning fluid from the playing surface of 12-inch records.
                         </p>
                         <p class="text-brand-muted text-lg leading-relaxed">
                             You wet the record and work the fluid in. Then you run the pad over the surface with the vacuum on. The fluid and the loosened dirt go into the vacuum, not back into the grooves.
@@ -216,7 +349,7 @@
         <section class="py-16 bg-brand-card/30 border-y border-brand-border">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-2xl mx-auto mb-12">
-                    <h2 class="text-3xl sm:text-4xl font-bold text-white">How to use it</h2>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white">How to Clean Vinyl Records With a Vacuum Brush</h2>
                     <p class="text-brand-muted mt-2">Simple, repeatable deep cleaning in four straightforward steps.</p>
                 </div>
 
@@ -250,7 +383,7 @@
                         <span class="text-3xl font-black text-brand-accent">04</span>
                         <h3 class="text-xl font-bold text-white">Rinse and dry</h3>
                         <p class="text-brand-muted text-sm leading-relaxed">
-                            Rinse with distilled water if you want to, pull that off the same way, and let the record dry completely before you play it.
+                            Follow your cleaning fluid’s rinsing instructions. If a rinse is required, use distilled water and vacuum it off. Let the record dry completely before playback.
                         </p>
                     </div>
                 </div>
@@ -261,7 +394,7 @@
                         src="images/vacuum-hose.webp" 
                         alt="Cleaning a vinyl record with a vacuum attached to the Mikah record cleaning brush" 
                         class="w-full h-auto object-cover rounded-2xl"
-                        loading="lazy"
+                        loading="lazy" decoding="async"
                         onerror="this.onerror=null; this.src='https://placehold.co/800x400/181b20/94a3b8?text=images/vacuum-hose.webp';"
                     >
                 </div>
@@ -279,7 +412,7 @@
                     <div class="p-6 rounded-2xl bg-brand-card card-border space-y-3">
                         <h3 class="text-xl font-bold text-white">Removes dirt, doesn't move it</h3>
                         <p class="text-brand-muted leading-relaxed">
-                            The vacuum step is the one most home cleaning routines are missing. It pulls dissolved contaminants out entirely.
+                            The vacuum step is the one most home cleaning routines are missing. It removes used cleaning fluid and loosened contaminants from the playing surface.
                         </p>
                     </div>
                     <div class="p-6 rounded-2xl bg-brand-card card-border space-y-3">
@@ -297,7 +430,7 @@
                     <div class="p-6 rounded-2xl bg-brand-card card-border space-y-3">
                         <h3 class="text-xl font-bold text-white">Uses equipment you have</h3>
                         <p class="text-brand-muted leading-relaxed">
-                            Designed to work seamlessly with your existing turntable, vacuum, and standard 1.5" hose attachment.
+                            Use this vinyl record vacuum attachment with a wet/dry vacuum and a compatible 1.5-inch hose. The vacuum and turntable are separate equipment.
                         </p>
                     </div>
                     <div class="p-6 rounded-2xl bg-brand-card card-border space-y-3 md:col-span-2">
@@ -317,13 +450,23 @@
                     <!-- Text & Fluid Info -->
                     <div class="lg:col-span-7 space-y-8">
                         <div>
-                            <h2 class="text-3xl sm:text-4xl font-bold text-white">About the fluid</h2>
+                            <h2 class="text-3xl sm:text-4xl font-bold text-white">Vinyl Record Cleaning Solution</h2>
                             <p class="text-brand-muted text-lg mt-4 leading-relaxed">
-                                The cleaning fluid in our kits is the Library of Congress recipe, the one the Library recommends for the best long-term results, cleaning records while preserving them.
+                                Our kits include a vinyl record cleaning solution for wet cleaning vinyl records. Spread the record cleaning fluid gently over the playing surface, then use the vacuum brush to remove the used solution and loosened dirt. Follow the instructions supplied with your chosen kit.
                             </p>
-                            <p class="text-xs text-brand-muted/70 mt-2">
-                                *(Mikah Vinyl Cleaner is an independent product and is not affiliated with or endorsed by the Library of Congress.)*
-                            </p>
+                        </div>
+
+
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-4">What’s Included in the LP Cleaning Kit?</h3>
+                            <p class="text-brand-muted text-base leading-relaxed">Mikah vinyl cleaning kit options combine the vacuum brush with record cleaning supplies. Depending on the option selected, your LP cleaning kit can include:</p>
+                            <ul class="list-disc pl-6 mt-4 space-y-2 text-brand-muted">
+                                <li>Mikah vacuum record cleaning brush</li>
+                                <li>Record cleaning solution</li>
+                                <li>Dry dust brush</li>
+                                <li>Spare self-adhesive velvet pads</li>
+                            </ul>
+                            <p class="text-brand-muted text-sm mt-4">Check your selected eBay or Etsy listing for the exact contents and quantities. Vacuum and turntable are not included.</p>
                         </div>
 
                         <div>
@@ -341,7 +484,7 @@
                                 src="images/kit.webp" 
                                 alt="Vinyl record cleaning kit with vacuum brush, cleaning fluid, dry brush, and spare pads" 
                                 class="w-full h-auto object-cover rounded-2xl"
-                                loading="lazy"
+                                loading="lazy" decoding="async"
                                 onerror="this.onerror=null; this.src='https://placehold.co/600x400/181b20/94a3b8?text=images/kit.webp';"
                             >
                         </div>
@@ -350,7 +493,7 @@
                                 src="images/spray.webp" 
                                 alt="Spraying record cleaning fluid onto a record on a turntable" 
                                 class="w-full h-auto object-cover rounded-2xl"
-                                loading="lazy"
+                                loading="lazy" decoding="async"
                                 onerror="this.onerror=null; this.src='https://placehold.co/600x300/181b20/94a3b8?text=images/spray.webp';"
                             >
                         </div>
@@ -373,7 +516,7 @@
                             <span class="text-brand-accent transition-transform group-open:rotate-180">↓</span>
                         </summary>
                         <p class="text-brand-muted mt-4 leading-relaxed">
-                            It has a 1.5 inch hose connection.
+                            It has a 1.5-inch hose connection for a compatible wet/dry vacuum. Check the hose fit before use and follow your vacuum manufacturer’s instructions for collecting liquid.
                         </p>
                     </details>
 
@@ -393,7 +536,7 @@
                             <span class="text-brand-accent transition-transform group-open:rotate-180">↓</span>
                         </summary>
                         <p class="text-brand-muted mt-4 leading-relaxed">
-                            Yes. Any record-safe vinyl cleaning solution will work. The kits come with ours.
+                            You can use a record-safe vinyl cleaning solution suitable for vacuum cleaning. Follow the fluid manufacturer’s directions, including any rinsing requirements. The kits include our record cleaning fluid.
                         </p>
                     </details>
 
@@ -416,6 +559,8 @@
                             No. A dedicated machine is more automatic. This is a smaller, cheaper way to get the same vacuum step, using equipment you already own.
                         </p>
                     </details>
+<details class="group p-6 rounded-2xl bg-brand-card card-border cursor-pointer"><summary class="flex justify-between items-center font-bold text-lg text-white"><span>What is a record cleaner vacuum attachment?</span><span class="text-brand-accent transition-transform group-open:rotate-180" aria-hidden="true">↓</span></summary><p class="text-brand-muted mt-4 leading-relaxed">A record cleaner vacuum attachment connects a record-cleaning brush to an external wet/dry vacuum. Mikah uses a compatible 1.5-inch hose to remove used cleaning fluid and loosened dirt from 12-inch LPs.</p></details>
+<details class="group p-6 rounded-2xl bg-brand-card card-border cursor-pointer"><summary class="flex justify-between items-center font-bold text-lg text-white"><span>Can this LP record cleaner repair scratches?</span><span class="text-brand-accent transition-transform group-open:rotate-180" aria-hidden="true">↓</span></summary><p class="text-brand-muted mt-4 leading-relaxed">Cleaning can remove loose dirt and residue, but it does not repair scratches or worn grooves. Some surface noise may remain after cleaning.</p></details>
                 </div>
             </div>
         </section>
@@ -426,10 +571,10 @@
                 <h2 class="text-4xl sm:text-5xl font-extrabold text-white">Give your records a proper clean.</h2>
                 <p class="text-xl text-brand-muted">Pick your kit on eBay or Etsy.</p>
                 <div class="pt-4 flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="#ebay" class="btn-ebay text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-blue-500/10 text-base transition-all transform hover:-translate-y-0.5">
+                    <a href="https://www.ebay.com/itm/167882713172" class="btn-ebay text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-blue-500/10 text-base transition-all transform hover:-translate-y-0.5">
                         Buy on eBay
                     </a>
-                    <a href="#etsy" class="btn-etsy text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/10 text-base transition-all transform hover:-translate-y-0.5">
+                    <a href="https://www.etsy.com/listing/1643806506/vinyl-record-cleaning-kit-vacuum-brush" class="btn-etsy text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/10 text-base transition-all transform hover:-translate-y-0.5">
                         Buy on Etsy
                     </a>
                 </div>
